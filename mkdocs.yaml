@@ -7,6 +7,41 @@ nav:
       - Sub Section 1.1: section1/s1.md
       - Sub Section 1.2: section1/s2.md
       - Sub Section 1.3: section1/s3.md
+  - API Endpoints:
+      - Visão Geral: endpoints/README.md
+      - Hotéis:
+          - Listar Hotéis: endpoints/hotels_GET.md
+          - Buscar Hotel por ID: endpoints/hotels_by_id_GET.md
+          - Buscar por Cidade: endpoints/hotels_city_GET.md
+          - Buscar por Nome: endpoints/hotels_search_GET.md
+          - Criar Hotel: endpoints/hotels_POST.md
+          - Atualizar Hotel: endpoints/hotels_by_id_PUT.md
+          - Deletar Hotel: endpoints/hotels_by_id_DELETE.md
+      - Hóspedes:
+          - Buscar Hóspede por ID: endpoints/guests_by_id_GET.md
+          - Buscar por E-mail: endpoints/guests_email_GET.md
+          - Buscar por Nome: endpoints/guests_search_GET.md
+          - Criar Hóspede: endpoints/guests_POST.md
+          - Atualizar Hóspede: endpoints/guests_by_id_PUT.md
+      - Quartos:
+          - Buscar Quarto por ID: endpoints/rooms_by_id_GET.md
+          - Listar Quartos do Hotel: endpoints/rooms_hotel_GET.md
+          - Buscar Quartos Disponíveis: endpoints/rooms_hotel_available_GET.md
+          - Criar Quarto: endpoints/rooms_POST.md
+          - Atualizar Quarto: endpoints/rooms_by_id_PUT.md
+          - Atualizar Disponibilidade: endpoints/rooms_availability_PATCH.md
+      - Reservas:
+          - Buscar Reserva por ID: endpoints/reservations_by_id_GET.md
+          - Buscar por Código: endpoints/reservations_confirmation_GET.md
+          - Listar por Hóspede: endpoints/reservations_guest_GET.md
+          - Criar Reserva: endpoints/reservations_POST.md
+          - Atualizar Reserva: endpoints/reservations_by_id_PUT.md
+          - Confirmar Reserva: endpoints/reservations_confirm_POST.md
+          - Cancelar Reserva: endpoints/reservations_cancel_POST.md
+          - Check-in: endpoints/reservations_checkin_POST.md
+          - Check-out: endpoints/reservations_checkout_POST.md
+      - Clima:
+          - Consultar Previsão: endpoints/weather_check_GET.md
 
 plugins:
   - techdocs-core
